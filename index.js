@@ -10,7 +10,6 @@ const chats = {};
  * Запуск игры
  * @param chatID {number}
  */
-
 const startGame = async (chatID) => {
   // Отправляем сообщение
   await bot.sendMessage(
